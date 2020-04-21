@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:curtaindestiny/adminUser:password
+  username: admin
+dashboardUrl: https://example.com
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:curtaindestiny/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:curtaindestiny/prow:hmacToken
+segmentWriteKey: vault:curtaindestiny:segmentWriteKey
